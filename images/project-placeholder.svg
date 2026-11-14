@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Project image placeholder</title>
+  <desc id="desc">Abstract technical illustration used where a project image is not available.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#122035"/>
+      <stop offset="1" stop-color="#08111f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#70e1cf"/>
+      <stop offset="1" stop-color="#ffb86b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#line)" stroke-width="3" opacity=".72">
+    <path d="M80 620 260 450 420 530 610 270 820 390 1110 130"/>
+    <path d="M100 170 300 310 470 190 680 430 900 260 1090 470" opacity=".4"/>
+    <circle cx="260" cy="450" r="13" fill="#70e1cf"/>
+    <circle cx="610" cy="270" r="13" fill="#70e1cf"/>
+    <circle cx="820" cy="390" r="13" fill="#ffb86b"/>
+    <circle cx="1110" cy="130" r="13" fill="#ffb86b"/>
+  </g>
+  <g fill="#edf5ff" font-family="Arial, sans-serif">
+    <text x="80" y="110" font-size="30" letter-spacing="6" opacity=".72">PROJECT DOCUMENTATION</text>
+    <text x="80" y="730" font-size="22" opacity=".55">image coming soon</text>
+  </g>
+</svg>

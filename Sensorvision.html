@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SensoVision | Theodor Lazarjan</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<header class="site-header">
+    <div class="header-inner">
+        <p class="eyebrow">Project / 03</p>
+        <h1>Theodor <span>Lazarjan</span></h1>
+        <p>Passionate builder from Hamburg.</p>
+    </div>
+</header>
+
+<nav id="navbar" aria-label="Main navigation">
+    <div class="nav-inner">
+        <ul>
+        <li><a href="Aboutme.html">Home</a></li>
+        <li><a href="Projects.html" aria-current="page">Projects</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Contactme.html">Contact me</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<main id="main-content">
+
+<section class="hero">
+
+    <h2>SensoVision - Die Brille der nächsten Generation</h2>
+
+    <p>
+        Eine intelligente Arduino-Brille zur Unterstützung blinder Menschen.
+        Mithilfe von Ultraschallsensoren erkennt sie Hindernisse und vermittelt
+        Informationen über Entfernung und Richtung durch akustische und
+        mechanische Signale.
+    </p>
+
+</section>
+
+
+<section class="overview">
+
+    <h2>Projektübersicht</h2>
+
+    <p>
+        Ziel des Projekts war die Entwicklung einer tragbaren Konstruktion,
+        die blinden Menschen hilft, Hindernisse sicherer wahrzunehmen.
+        Eine Brille mit mehreren Sensoren erkennt Objekte in der Umgebung
+        und gibt dem Träger Rückmeldungen über die Position und Entfernung.
+    </p>
+
+</section>
+
+
+
+<section class="cards">
+
+
+<div class="card">
+
+    <img src="images/BlindePerson.PNG" alt="Projektidee" style="max-height:200px; max-width:100%; width:auto;">
+    <div class="card-content">
+
+        <h3>Die Projektidee</h3>
+
+        <p>
+            Die Idee entstand durch die Beobachtung einer Situation im Alltag,
+            bei der ein Blindenstock ein seitliches Hindernis nicht erkennen konnte.
+            Daraus entstand die Frage, ob eine technische Lösung entwickelt werden
+            kann, die ähnlich wie Parksensoren bei Fahrzeugen vor Hindernissen warnt.
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<div class="card">
+    <img src="images/BildSensorvision.PNG" alt="Projektidee" style="max-height:200px; max-width:100%; width:auto;">
+
+    <div class="card-content">
+
+        <h3>Sensorik zur Hinderniserkennung</h3>
+
+        <p>
+            Die Brille verwendet Ultraschallsensoren HC-SR04,
+            um Entfernungen zu Hindernissen zu messen.
+            Die Sensoren senden Schallwellen aus und berechnen anhand
+            der Laufzeit des Echos die Entfernung eines Objektes.
+        </p>
+
+        <p>
+            Durch die Sensoren vorne sowie an den Seiten kann die Umgebung
+            aus verschiedenen Richtungen überwacht werden.
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<div class="card">
+
+    <img src="images/project-placeholder.svg" alt="Konstruktion">
+
+    <div class="card-content">
+
+        <h3>Konstruktion der Brille</h3>
+
+        <p>
+            Die Konstruktion besteht aus einer Brille, drei Ultraschallsensoren,
+            sechs Servomotoren, zwei Arduino-Steuereinheiten, einem Joystick
+            und einem Buzzer.
+        </p>
+
+        <p>
+            Die seitlichen Sensoren sind beweglich montiert und können mithilfe
+            von Motoren horizontal und vertikal ausgerichtet werden.
+        </p>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="card">
+
+    <img src="images/BildKonstruktion.PNG" alt="Gesamtsystem">
+
+    <div class="card-content">
+
+        <h3>Gesamtsystem und Schaltung</h3>
+
+        <p>
+            Das Gesamtsystem verbindet Sensoren, Motoren und Steuerungseinheiten.
+            Zwei Arduino-Systeme übernehmen die Verarbeitung der Sensordaten
+            und die Steuerung der mechanischen Rückmeldungen.
+        </p>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="card">
+
+    <img src="images/project-placeholder.svg" alt="Programmierung">
+
+    <div class="card-content">
+
+        <h3>Programmierung</h3>
+
+        <p>
+            Die Arduino-Programme messen kontinuierlich die Entfernung zu
+            Hindernissen und verarbeiten die Sensordaten.
+        </p>
+
+        <p>
+            Der vordere Sensor steuert einen Buzzer, der je nach Entfernung
+            schneller oder langsamer piept. Die seitlichen Sensoren steuern
+            Motoren, die den Benutzer durch Berührung informieren.
+        </p>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="card">
+
+    <img src="images/project-placeholder.svg" alt="Joystick Steuerung">
+
+    <div class="card-content">
+
+        <h3>Steuerung der Sensoren</h3>
+
+        <p>
+            Mit einem Joystick können die seitlichen Sensoren bewegt werden.
+            Dadurch kann der Benutzer selbst bestimmen, in welche Richtung
+            die Sensoren schauen sollen.
+        </p>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="card">
+
+    <img src="images/project-placeholder.svg" alt="Test der Brille">
+
+    <div class="card-content">
+
+        <h3>Tests und Ergebnisse</h3>
+
+        <p>
+            Die Brille konnte größere Hindernisse wie Wände zuverlässig erkennen.
+            Kleinere Gegenstände waren aufgrund des begrenzten Erfassungsbereichs
+            schwieriger zu erkennen.
+        </p>
+
+        <p>
+            Die Tests zeigten jedoch, dass das Konzept einer sensorbasierten
+            Assistenzbrille technisch umgesetzt werden kann.
+        </p>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="card">
+
+    <img src="images/project-placeholder.svg" alt="Ausblick">
+
+    <div class="card-content">
+
+        <h3>Ausblick und Verbesserungen</h3>
+
+        <p>
+            Zukünftige Verbesserungen könnten zusätzliche Sensoren,
+            eine Kamera zur Objekterkennung oder eine drahtlose Übertragung
+            der Sensordaten beinhalten.
+        </p>
+
+        <p>
+            Außerdem könnte ein automatisches System entwickelt werden,
+            das die Sensoren ohne Joystick bewegt und die Informationen
+            direkt über Sprache ausgibt.
+        </p>
+
+    </div>
+
+</div>
+
+
+
+</section>
+
+
+
+<section class="result">
+
+<h2>Ergebnis</h2>
+
+<p>
+    SensoVision zeigt, wie Sensorik, Arduino-Technik und Mechanik kombiniert
+    werden können, um Menschen mit Sehbehinderung im Alltag zu unterstützen.
+    Die entwickelte Brille kann Hindernisse erkennen und wichtige Informationen
+    über die Umgebung vermitteln.
+</p>
+
+</section>
+
+
+
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer-inner">
+        <p><span class="mono">Theodor Lazarjan</span> — personal portfolio</p>
+        <p>Hamburg, Germany · <a href="Contactme.html">Contact me</a></p>
+    </div>
+</footer>
+
+</body>
+</html>

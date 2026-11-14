@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: rgb(189, 178, 178);
+    margin-top: 0px;
+    text-align: center;
+    padding: 15px;
+}
+header h1{
+    margin: 0px;
+    font-style: italic;
+}
+#navbar ul{
+    list-style-type: none;
+    background-color:antiquewhite;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+#navbar a{
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+    display: block;
+    padding: 15px;
+}
+#navbar a:hover{
+    background-color:rgb(225, 199, 163);
+}
+#navbar li{
+    float: left;
+}
+
+
+main h3{
+    text-align: center;
+}
+
+
+#Project1 img, #Project2 img, #Project3 img, #Project4 img{
+    float:left;
+    width: 200px;
+    height: 180px;
+    margin-left: 20px;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+#Project4 img{
+    object-fit: contain;
+}
+#Project1 img:hover, #Project2 img:hover, #Project3 img:hover, #Project4 img:hover{
+    float: left;
+    width: 200px ;
+    height: 180px;
+    margin-left: 20px;
+    border: 5px solid rgb(199, 199, 199);
+    border-radius: 25px;
+}

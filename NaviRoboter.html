@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Der autonome Navi-Roboter | Theodor Lazarjan</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+
+
+<body>
+
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<header class="site-header">
+    <div class="header-inner">
+        <p class="eyebrow">Project / 02</p>
+        <h1>Theodor <span>Lazarjan</span></h1>
+        <p>Passionate builder from Hamburg.</p>
+    </div>
+</header>
+
+
+<nav id="navbar" aria-label="Main navigation">
+    <div class="nav-inner">
+        <ul>
+        <li><a href="Aboutme.html">Home</a></li>
+        <li><a href="Projects.html" aria-current="page">Projects</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Contactme.html">Contact me</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<main id="main-content">
+
+
+<section class="hero">
+
+    <h2>Der autonome Navi-Roboter</h2>
+
+    <p>
+        Entwicklung eines autonomen Roboters, der in einem digitalen
+        Straßennetz den kürzesten Weg zu einem Ziel berechnet und diesen
+        anschließend selbstständig befährt.
+    </p>
+
+</section>
+
+
+
+<section class="overview">
+
+    <h2>Projektübersicht</h2>
+
+    <p>
+        Ziel des Projekts ist die Entwicklung eines Algorithmus,
+        welcher ein Straßennetz analysieren kann und den schnellsten
+        beziehungsweise kürzesten Weg zwischen Start und Ziel findet.
+        Anschließend soll ein Roboter diesen Weg autonom durchführen.
+    </p>
+
+</section>
+
+
+
+<section class="cards">
+
+
+
+<div class="card">
+
+<img src="images/project-placeholder.svg" alt="Straßennetz">
+
+<div class="card-content">
+
+<h3>Die Projektidee</h3>
+
+<p>
+    Die Idee entstand durch das Interesse an autonom fahrenden Robotern
+    und der Frage, wie ein Roboter selbstständig Entscheidungen treffen kann.
+    Dafür sollte ein System entwickelt werden, welches ein Straßennetz
+    analysiert und den optimalen Weg berechnet.
+</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="images/project-placeholder.svg" alt="Koordinatensystem">
+
+
+<div class="card-content">
+
+<h3>Digitale Darstellung des Straßennetzes</h3>
+
+<p>
+    Damit ein Computer ein Straßennetz analysieren kann, wurde es in einzelne
+    Quadrate unterteilt. Jede Kreuzung, Straße und freie Fläche wird durch
+    Koordinaten beschrieben.
+</p>
+
+<p>
+    Kreuzungen werden durch verschiedene Zahlen dargestellt, welche angeben,
+    in welche Richtung eine Straße geöffnet ist.
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="images/project-placeholder.svg" alt="Algorithmus">
+
+<div class="card-content">
+
+<h3>Suche des kürzesten Weges</h3>
+
+<p>
+    Der entwickelte Algorithmus untersucht verschiedene mögliche Wege
+    zwischen Start und Ziel.
+</p>
+
+<p>
+    Bei Kreuzungen merkt sich das Programm bestimmte Positionen und kann
+    später zu diesen Punkten zurückkehren, um weitere Wege zu überprüfen.
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="images/project-placeholder.svg" alt="Kreuzung">
+
+<div class="card-content">
+
+<h3>Umgang mit Kreuzungen</h3>
+
+<p>
+    Bei mehreren möglichen Wegen werden die verschiedenen Möglichkeiten
+    untersucht und miteinander verglichen.
+</p>
+
+<p>
+    Dadurch kann der Algorithmus feststellen, welcher Weg die wenigsten
+    Schritte benötigt und somit der kürzeste ist.
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="images/project-placeholder.svg" alt="Alle Wege">
+
+<div class="card-content">
+
+<h3>Gleichzeitige Wegsuche</h3>
+
+<p>
+    Eine verbesserte Variante des Programms verfolgt mehrere Wege
+    gleichzeitig.
+</p>
+
+<p>
+    Ähnlich wie eine Ausbreitung in alle Richtungen werden mögliche Wege
+    parallel untersucht. Der erste gefundene Zielweg ist dadurch automatisch
+    der kürzeste.
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="images/project-placeholder.svg" alt="Jetbot Roboter">
+
+<div class="card-content">
+
+<h3>Der autonome Roboter</h3>
+
+<p>
+    Für die praktische Umsetzung wird ein Jetbot AI Kit mit Raspberry Pi
+    verwendet.
+</p>
+
+<p>
+    Der Roboter kann über WLAN programmiert werden und erhält anschließend
+    die berechneten Fahrbefehle, um den Weg autonom abzufahren.
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="images/project-placeholder.svg" alt="Roboter Programmierung">
+
+<div class="card-content">
+
+<h3>Steuerung des Roboters</h3>
+
+<p>
+    Das Programm übersetzt die berechneten Wege in einzelne Bewegungen:
+    Vorwärts, Links, Rechts und Rückwärts.
+</p>
+
+<p>
+    Dabei wird die aktuelle Richtung des Roboters gespeichert und der
+    benötigte Drehwinkel automatisch berechnet.
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="images/project-placeholder.svg" alt="Testergebnis">
+
+<div class="card-content">
+
+<h3>Ergebnisse</h3>
+
+<p>
+    Der Roboter kann in einem definierten quadratischen Straßennetz den
+    schnellsten Weg berechnen und anschließend abfahren.
+</p>
+
+<p>
+    Die verschiedenen Algorithmen zeigen, dass eine parallele Wegsuche
+    schneller funktionieren kann als das vollständige Durchprobieren aller
+    Möglichkeiten.
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="images/project-placeholder.svg" alt="Dijkstra Algorithmus">
+
+<div class="card-content">
+
+<h3>Ausblick und Verbesserungen</h3>
+
+<p>
+    Eine zukünftige Verbesserung ist die Erweiterung auf komplexere
+    Straßennetze mit unterschiedlichen Weglängen mithilfe des Dijkstra-
+    Algorithmus.
+</p>
+
+<p>
+    Zusätzlich könnte die Kamera des Jetbots genutzt werden, um Objekte
+    zu erkennen und Hindernissen automatisch auszuweichen.
+</p>
+
+</div>
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+<section class="result">
+
+<h2>Ergebnis</h2>
+
+<p>
+    Das Projekt zeigt, wie Algorithmen, Programmierung und Robotik kombiniert
+    werden können, um einen autonomen Roboter zu entwickeln.
+    Der Roboter ist in der Lage, einen optimalen Weg zu berechnen und diesen
+    selbstständig auszuführen.
+</p>
+
+</section>
+
+
+
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer-inner">
+        <p><span class="mono">Theodor Lazarjan</span> — personal portfolio</p>
+        <p>Hamburg, Germany · <a href="Contactme.html">Contact me</a></p>
+    </div>
+</footer>
+
+
+</body>
+
+</html>

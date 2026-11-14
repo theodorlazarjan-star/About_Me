@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Theodor Lazarjan.">
+    <title>Theodor Lazarjan | Contact</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <p class="eyebrow">Get in touch</p>
+            <h1>Contact me<span>.</span></h1>
+            <p>Passionate builder from Hamburg.</p>
+        </div>
+    </header>
+
+    <nav id="navbar" aria-label="Main navigation">
+        <div class="nav-inner">
+            <ul>
+                <li><a href="Aboutme.html">Home</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Skills.html">Skills</a></li>
+                <li><a href="Contactme.html" aria-current="page">Contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content" class="contact-page">
+        <section class="contact-intro" aria-labelledby="contact-title">
+            <p class="kicker">Contact me</p>
+            <h2 id="contact-title">I am interested in meeting new people.</h2>
+            <p>Feel free to send me a message if you want to talk about projects, technology or a shared idea.</p>
+        </section>
+
+        <section class="contact-panel" aria-label="Contact form">
+            <form action="#" method="post">
+                <div class="form-row">
+                    <label for="Username">Name</label>
+                    <input type="text" id="Username" name="name" placeholder="Your name" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="comment">Message</label>
+                    <textarea id="comment" name="message" rows="6" placeholder="What would you like to talk about?" required></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <input type="submit" value="Send message">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <p><span class="mono">Theodor Lazarjan</span> — personal portfolio</p>
+            <p>Hamburg, Germany · <a href="Contactme.html">Contact me</a></p>
+        </div>
+    </footer>
+</body>
+</html>
